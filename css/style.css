@@ -592,6 +592,42 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
+/* General input styling */
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 50px; /* Matches the rounded inputs */
+  font-size: 16px;
+  background: white;
+  color: black;
+  outline: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the select dropdown match input fields */
+select {
+  appearance: none; /* Remove default dropdown arrow */
+  cursor: pointer;
+  padding-right: 40px; /* Space for custom dropdown arrow */
+}
+
+/* Style the reason for appointment textarea */
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px; /* Box shape */
+  font-size: 16px;
+  background: white;
+  color: black;
+  outline: none;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  resize: none;
+  min-height: 100px; /* Make it slightly bigger */
+}
+
+
 
 
 
